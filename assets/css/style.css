@@ -104,7 +104,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3284f1;
+  background: #f68121;
   color: #fff;
 }
 
@@ -126,7 +126,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #106eea;
+  background: #f68121;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -197,11 +197,11 @@ h6 {
 }
 
 #header .logo a span {
-  color: #106eea;
+  color: #f68121;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 .scrolled-offset {
@@ -280,7 +280,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #106eea;
+  color: #f68121;
 }
 
 .navbar .dropdown ul {
@@ -314,7 +314,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #106eea;
+  color: #f68121;
 }
 
 .navbar .dropdown:hover>ul {
@@ -500,7 +500,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #106eea;
+  color: #f68121;
 }
 
 #hero h2 {
@@ -525,7 +525,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #247cf0;
+  background: #f68121;
 }
 
 #hero .btn-watch-video {
@@ -547,11 +547,11 @@ h6 {
 }
 
 #hero .btn-watch-video:hover {
-  color: #106eea;
+  color: #f68121;
 }
 
 #hero .btn-watch-video:hover i {
-  color: #3b8af2;
+  color: #f68121;
 }
 
 @media (min-width: 1024px) {
@@ -1706,7 +1706,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #0d58ba;
+  background: #f68121;
 }
 
 #footer .footer-top {
@@ -1727,7 +1727,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: #106eea;
+  color: #f68121;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1801,7 +1801,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #3b8af2;
+  background: #f68121;
   color: #fff;
   text-decoration: none;
 }
