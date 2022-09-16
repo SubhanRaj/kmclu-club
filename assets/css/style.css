@@ -1,10 +1,3 @@
-/**
-* Template Name: BizLand - v3.8.1
-* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -492,7 +485,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 43px;
   font-weight: 700;
   line-height: 56px;
   color: #222222;
@@ -504,10 +497,18 @@ h6 {
 }
 
 #hero h2 {
-  color: #555555;
+  font-family: 'Dancing Script', cursive;
+  color: #000;
   margin: 5px 0 30px 0;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#hero h2 span {
+  font-size: 30px;
+  margin-left: 45%;
+  text-align: right;
+  /* font-style: italic; */
 }
 
 #hero .btn-get-started {
