@@ -83,7 +83,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #106eea;
+  background: #af8322;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -97,7 +97,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #f68121;
+  background: #106eea;
   color: #fff;
 }
 
@@ -119,7 +119,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #f68121;
+  background: #af8322;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -540,7 +540,7 @@ h6 {
 }
 
 #hero .btn-watch-video i {
-  color: #106eea;
+  color: #f68121;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
@@ -548,7 +548,7 @@ h6 {
 }
 
 #hero .btn-watch-video:hover {
-  color: #f68121;
+  color: #106eea;
 }
 
 #hero .btn-watch-video:hover i {
