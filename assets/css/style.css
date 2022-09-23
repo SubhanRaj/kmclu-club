@@ -167,7 +167,7 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  height: 86px;
+  height: 70px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -330,6 +330,7 @@ h6 {
 }
 
 @media (max-width: 1366px) {
+  
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -356,6 +357,12 @@ h6 {
 }
 
 @media (max-width: 991px) {
+  #header .logo {
+    font-size: 24px;
+  }
+  #header .logo img{
+    height: 33px;
+  }
   .mobile-nav-toggle {
     display: block;
   }
@@ -576,6 +583,12 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+   #hero h2 span {
+     font-size: 18px;
+     line-height: 24px;
+     margin-bottom: 30px;
+     margin-left: 33%;
+   }
 
   #hero .btn-get-started,
   #hero .btn-watch-video {
