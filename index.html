@@ -637,7 +637,7 @@
           <!-- <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
           <div class="col-lg-6">
-            <form action=""  role="form" class="php-email-form">
+            <form method="post"  role="form" class="php-email-form" id="contact-form">
               <div class="row">
                 <div class="col form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -757,10 +757,26 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- jQuery -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+
+  <script>
+   jQuery('#contact-form').on('submit', function(e){
+    e.preventDefault();
+    jQuery.ajax({
+      url:'',
+      type:'post',
+      data:jQuery('#contact-form').serialize(),
+      success:function(result){
+        console.log(result);
+      }
+    })
+   })
+  </script>
 
 </body>
 
