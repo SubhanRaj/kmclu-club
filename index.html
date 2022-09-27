@@ -637,7 +637,7 @@
           <!-- <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
           <div class="col-lg-6">
-            <form method="post"  role="form" class="php-email-form" id="contact-form">
+            <form method="post" role="form" class="php-email-form" id="contact-form">
               <div class="row">
                 <div class="col form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -655,7 +655,7 @@
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div id="sent-message"></div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
@@ -757,7 +757,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
@@ -768,11 +767,13 @@
    jQuery('#contact-form').on('submit', function(e){
     e.preventDefault();
     jQuery.ajax({
-      url:'',
+      url:'https://script.google.com/macros/s/AKfycbwfsQAhOrNPYSwPZqciPuYrMUfn48cBsN20TSjtLwGaRjoNcZ_JLrkzR82v0KD30ILH/exec',
       type:'post',
       data:jQuery('#contact-form').serialize(),
       success:function(result){
-        console.log(result);
+        jQuery('#contact-form')[0].reset();
+        jQuery('#sent-message').html('Your message has been sent. Thank you!');
+
       }
     })
    })
