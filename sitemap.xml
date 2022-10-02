@@ -9,13 +9,33 @@
 
 <url>
   <loc>https://www.kmclu.club/</loc>
-  <lastmod>2022-09-23T02:39:21+00:00</lastmod>
+  <lastmod>2022-10-01T18:48:46+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.kmclu.club/index.html</loc>
-  <lastmod>2022-09-23T02:39:21+00:00</lastmod>
+  <lastmod>2022-10-01T18:48:46+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kmclu.club/pages/javaClub.html</loc>
+  <lastmod>2022-10-01T18:48:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kmclu.club/pages/template.html</loc>
+  <lastmod>2022-10-01T18:48:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kmclu.club/dev.html</loc>
+  <lastmod>2022-10-01T18:48:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kmclu.club/portfolio-details.html</loc>
+  <lastmod>2022-10-01T18:48:46+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
