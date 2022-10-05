@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9HEHBT8FQK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-9HEHBT8FQK');
+  </script>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="theme-color" content="#af8322" />
@@ -35,6 +49,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+
 </head>
 
 <body>
@@ -65,17 +80,17 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li class="dropdown"><a href="#services"><span>Clubs</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-               <li><a href="/pages/javaClub.html">Java Club</a></li>
-                <li><a href="#">Python Club</a></li>
-                <li><a href="#">C++ Club</a></li>
-                <li><a href="#">Flutter Club</a></li>
-                <li><a href="#">Webtech Club</a></li>
-                <li><a href="#">Cybersecurity Club</a></li>
-                <li><a href="#">Club</a></li>
-              </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <ul>
+              <li><a href="/pages/javaClub.html">Java Club</a></li>
+              <li><a href="#">Python Club</a></li>
+              <li><a href="#">C++ Club</a></li>
+              <li><a href="#">Flutter Club</a></li>
+              <li><a href="#">Webtech Club</a></li>
+              <li><a href="#">Cybersecurity Club</a></li>
+              <li><a href="#">Club</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -265,7 +280,7 @@
 
       </div>
     </section><!-- End About Section -->
-  
+
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
       <div class="container" data-aos="fade-up">
@@ -513,7 +528,7 @@
 
       </div>
     </section> -->
-    
+
     <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
@@ -679,19 +694,19 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
 
   <script>
-   jQuery('#contact-form').on('submit', function(e){
-    e.preventDefault();
-    jQuery.ajax({
-      url:'https://script.google.com/macros/s/AKfycbwfsQAhOrNPYSwPZqciPuYrMUfn48cBsN20TSjtLwGaRjoNcZ_JLrkzR82v0KD30ILH/exec',
-      type:'post',
-      data:jQuery('#contact-form').serialize(),
-      success:function(result){
-        jQuery('#contact-form')[0].reset();
-        jQuery('#sent-message').html('Your message has been sent. Thank you!');
+    jQuery('#contact-form').on('submit', function (e) {
+      e.preventDefault();
+      jQuery.ajax({
+        url: 'https://script.google.com/macros/s/AKfycbwfsQAhOrNPYSwPZqciPuYrMUfn48cBsN20TSjtLwGaRjoNcZ_JLrkzR82v0KD30ILH/exec',
+        type: 'post',
+        data: jQuery('#contact-form').serialize(),
+        success: function (result) {
+          jQuery('#contact-form')[0].reset();
+          jQuery('#sent-message').html('Your message has been sent. Thank you!');
 
-      }
+        }
+      })
     })
-   })
   </script>
 
 </body>
