@@ -388,6 +388,7 @@ h6 {
 
 .mobile-nav-toggle.bi-x {
   color: #fff;
+  
 }
 
 @media (max-width: 991px) {
@@ -410,7 +411,7 @@ h6 {
   position: fixed;
   overflow: hidden;
   top: 0;
-  right: 0;
+  right: 25%;
   left: 0;
   bottom: 0;
   background: rgba(9, 9, 9, 0.9);
@@ -419,9 +420,11 @@ h6 {
 }
 
 .navbar-mobile .mobile-nav-toggle {
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 15px;
+  color: #000;
+  font-size: 30px;
 }
 
 .navbar-mobile ul {
