@@ -45,18 +45,12 @@ This Webisite is created Under the guidance of Kmcian Volunteers. This project H
 
 
 <!-- Screenshots -->
-### :camera: Screenshots 1
-
+### :camera: Screenshots
+<!--
 <div align="center"> 
-  <img src="https://github.com/SubhanRaj/kmclu-club/blob/dev/assets/Screenshots/ss1.png" alt="screenshot" />
+  <img src="#" alt="screenshot" />
 </div>
-
-### :camera: Screenshots 2
-
-<div align="center"> 
-  <img src="https://github.com/SahilAli8808/kmclu-club/blob/main/assets/Screenshots/ss2.png" alt="screenshot" />
-</div>
-
+-->
 ### Executing program
 
 * To Excute the program can go through the github page 
@@ -77,7 +71,7 @@ git clone https://github.com/sahilali8808/kmclu-club.git
 
 ## License
 
-This project is licensed under the KMCLU License - Visit kmclu.club for details.
+This project is licensed under the [GNU-General Public License v3.0](https://github.com/SubhanRaj/kmclu-club/blob/dev/LICENSE) - Visit kmclu.club for details.
 
 # Our Contributors
 Here the table of Contributors of With there Roles.
