@@ -5,22 +5,22 @@ This is the Sample Project of Kmclu club that is initiated by Kmcian Students.
 <!-- Badges -->
 <p>
   <a href="https://github.com/SahilAli8808/kmclu-club">
-    <img src="https://img.shields.io/github/contributors/SahilAli8808/kmclu-club" alt="contributors" />
+    <img src="https://img.shields.io/github/contributors/SubhanRaj/kmclu-club" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/SahilAli8808/kmclu-club" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/SSubhanRajkmclu-club" alt="last update" />
   </a>
   <a href="https://github.com/SahilAli8808/kmclu-club/network/members">
-    <img src="https://img.shields.io/github/forks/SahilAli8808/kmclu-club" alt="forks" />
+    <img src="https://img.shields.io/github/forks/SubhanRaj/kmclu-club" alt="forks" />
   </a>
   <a href="https://github.com/SahilAli8808/kmclu-club/stargazers">
-    <img src="https://img.shields.io/github/stars/SahilAli8808/kmclu-club" alt="stars" />
+    <img src="https://img.shields.io/github/stars/SubhanRaj/kmclu-club" alt="stars" />
   </a>
   <a href="https://github.com/SahilAli8808/kmclu-club/issues/">
-    <img src="https://img.shields.io/github/issues/SahilAli8808/kmclu-club" alt="open issues" />
+    <img src="https://img.shields.io/github/issues/SubhanRaj/kmclu-club" alt="open issues" />
   </a>
   <a href="https://github.com/SahilAli8808/kmclu-club/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/SahilAli8808/kmclu-club.svg" alt="license" />
+    <img src="https://img.shields.io/github/license/SubhanRaj/kmclu-club.svg" alt="license" />
   </a>
 </p>
 <details>
