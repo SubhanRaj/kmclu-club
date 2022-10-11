@@ -8,7 +8,7 @@ This is the Sample Project of Kmclu club that is initiated by Kmcian Students.
     <img src="https://img.shields.io/github/contributors/SubhanRaj/kmclu-club" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/SSubhanRajkmclu-club" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/SubhanRaj/kmclu-club" alt="last update" />
   </a>
   <a href="https://github.com/SahilAli8808/kmclu-club/network/members">
     <img src="https://img.shields.io/github/forks/SubhanRaj/kmclu-club" alt="forks" />
