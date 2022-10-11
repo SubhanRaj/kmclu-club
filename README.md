@@ -4,7 +4,7 @@ This is the Sample Project of Kmclu club that is initiated by Kmcian Students.
 
 <!-- Badges -->
 <p>
-  <a href="https://github.com/SahilAli8808/kmclu-club">
+  <a href="https://github.com/SubhanRaj/kmclu-club">
     <img src="https://img.shields.io/github/contributors/SubhanRaj/kmclu-club" alt="contributors" />
   </a>
   <a href="">
